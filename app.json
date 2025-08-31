@@ -1,0 +1,70 @@
+{
+  "name": "Telegram File Sharing Bot",
+  "description": "A bot to store files and access them via special links",
+  "keywords": [
+    "telegram",
+    "file",
+    "sharing"
+  ],
+  "repository": "https://github.com/example-user/TelegramFileBot",
+  "logo": "https://example.com/logo.jpg",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Your Bot token, Get it from @BotFather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram user ID (integer)",
+      "value": "123456789"
+    },
+    "APP_ID": {
+      "description": "Your app id from my.telegram.org",
+      "value": ""
+    },
+    "DATABASE_URL": {
+      "description": "Paste your MongoDB connection URL",
+      "value": "url"
+    },
+    "DATABASE_NAME": {
+      "description": "Enter your MongoDB database name",
+      "value": "Cluster0"
+    },
+    "API_HASH": {
+      "description": "Your API hash from my.telegram.org",
+      "value": ""
+    },
+    "CHANNEL_ID": {
+      "description": "The ID of your database channel (make bot admin there)",
+      "value": "-1001234567890"
+    },
+    "FORCE_SUB_CHANNEL": {
+      "description": "ID of channel/group for force-subscription (or put 0 to disable)",
+      "value": "0"
+    },
+    "FORCE_SUB_CHANNEL2": {
+      "description": "Second channel/group ID for force-subscription (or put 0 to disable)",
+      "value": "0"
+    },
+    "ADMINS": {
+      "description": "Space-separated list of admin user IDs",
+      "value": "123456789 987654321",
+      "required": false
+    },
+    "PROTECT_CONTENT": {
+      "description": "Protect contents from being forwarded",
+      "value": "False",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
