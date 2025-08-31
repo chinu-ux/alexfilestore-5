@@ -1,0 +1,25 @@
+# Requirements for Telegram Bot
+# Maintained by @alexdrvfreak
+
+# --- Pyrogram & Extensions --- #
+pyrofork==2.3.45
+TgCrypto
+pyromod==1.5
+
+# --- Scheduling --- #
+schedule
+APscheduler
+
+# --- Database --- #
+pymongo
+motor
+dnspython
+
+# --- Web & Networking --- #
+aiohttp
+python-dotenv
+pytz
+requests
+bs4
+aiofiles
+asyncio
