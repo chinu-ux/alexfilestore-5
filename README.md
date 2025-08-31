@@ -49,8 +49,6 @@
 
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 
-
-
 /start - start the bot or get posts
 /batch - create link for more than one posts
 /genlink - create link for one post
@@ -72,10 +70,6 @@
 /add_admin - add a new admin
 /deladmin - remove an admin
 /admins - list all current admins
-
-
-
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <h3>「 ᴏᴛʜᴇʀ ʙʀᴀɴᴄʜᴇs 」
