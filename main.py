@@ -1,3 +1,11 @@
+import logging
+
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO
+)
+print("🚀 Bot starting...")
+
 from bot import Bot
 import pyrogram.utils
 
