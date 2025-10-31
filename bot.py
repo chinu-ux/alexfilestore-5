@@ -76,5 +76,8 @@ class Bot(Client):
         finally:
             loop.run_until_complete(self.stop())
 
+import time
+
 print("Bot is running...")
-app.run_polling()
+while True:
+    time.sleep(10)
